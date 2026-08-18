@@ -61,3 +61,7 @@ function login(error,msg){
 
  loginHandler("shagun", "12345", login);
  loginHandler("shagun", "1234", login);
+
+console.log("One")
+setTimeout(()=>{console.log("Two")},1000)
+console.log("Three")
