@@ -61,3 +61,31 @@ function login(error,msg){
 
  loginHandler("shagun", "12345", login);
  loginHandler("shagun", "1234", login);
+
+//Async programming
+console.log("One")
+setTimeout(()=>{console.log("Two")},1000)
+console.log("Three")
+// output: One, Three, Two
+
+// Synchronous programming
+console.log("One")
+for(i=0;i<1000;i++){
+    console.log("i="+i);
+}
+console.log("three");
+// output: One, i=0, i=1, i=2, ..., i=999, three
+
+// const container=document.getElementById('container');
+// const button=document.getElementById('btn');
+
+// const h1=document.createElement('h1');
+// console.log(h1);
+// h1.innerText="Hello User!";
+// function ping(){
+//     //alert('server ping')
+//     container.innerHTML='<h2>Welcome to DOM</h2>';
+//     container.appendChild(h1);
+// }
+
+// button.addEventListener('click',ping); 
