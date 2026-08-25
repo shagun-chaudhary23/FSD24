@@ -62,6 +62,7 @@ function login(error,msg){
  loginHandler("shagun", "12345", login);
  loginHandler("shagun", "1234", login);
 
+<<<<<<< HEAD
 //Async programming
 console.log("One")
 setTimeout(()=>{console.log("Two")},1000)
@@ -89,3 +90,8 @@ console.log("three");
 // }
 
 // button.addEventListener('click',ping); 
+=======
+console.log("One")
+setTimeout(()=>{console.log("Two")},1000)
+console.log("Three")
+>>>>>>> f0de386aeb59531926764aca6d6c3872885b39d1
