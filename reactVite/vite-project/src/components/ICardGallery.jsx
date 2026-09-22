@@ -1,5 +1,5 @@
 import React from 'react'
-import ICard from './ICard'
+import ICard from './ICard/ICard'
 function ICardGallery() {
   const student={
     college:'ABES Engineering College',

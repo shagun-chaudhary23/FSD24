@@ -1,18 +1,14 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import './App.css'
-import ICard from './components/ICard'
-import ICardGallery from './components/ICardGallery'
+import './App.css';
+import ColorChange from './components/ColorChange';
 
 function App() {
   return (
     <>
-    <div>
-      <ICardGallery/>
-    </div>
+      <div>
+        <ColorChange />
+      </div>
     </>
-  )
+  );
 }
-export default App
+
+export default App;
