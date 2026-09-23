@@ -1,11 +1,12 @@
 import './App.css';
-import ColorChange from './components/ColorChange';
+import ImageManipulation from './components/ImageManipulation';
+// import UpdateDetails from './components/UpdateDetails';
 
 function App() {
   return (
     <>
-      <div>
-        <ColorChange />
+      <div style={{border:"2px solid black", width:"600px",height:"500px", margin:"20px", padding:"20px" , backgroundColor:"pink"}}>
+        <ImageManipulation />
       </div>
     </>
   );
