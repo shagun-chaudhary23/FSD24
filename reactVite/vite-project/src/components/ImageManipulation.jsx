@@ -25,7 +25,7 @@ function ImageManipulation() {
   return (
     <div>
         <h2 style={{color:"red", textAlign:"center"}}>Image Manipulation</h2>
-        <div style={{height:"300px", width:"300px", border:"2px solid black", margin:"0 auto",backgroundColor:`rgb(${red},${green},${blue})`}}>
+        <div style={{height:"350px", width:"350px", border:"2px solid black", margin:"0 auto",backgroundColor:`rgb(${red},${green},${blue})`}}>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGbDCjxxfiLV9Jz41XE3GiU5ZuBj3SupWxC4tcsMTz4Q&s=10" height={cheight} width={cwidth} alt="cat" />
         </div>
         <div>

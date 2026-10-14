@@ -1,15 +1,20 @@
 import './App.css';
-import ImageManipulation from './components/ImageManipulation';
-// import UpdateDetails from './components/UpdateDetails';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Login from './components/Login';
+import Registration from './components/Registration';
+import Dashboard from './components/Dashboard';
+import Home from './components/Home';
 
 function App() {
   return (
-    <>
-      <div style={{border:"2px solid black", width:"600px",height:"500px", margin:"20px", padding:"20px" , backgroundColor:"pink"}}>
-        <ImageManipulation />
-      </div>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Registration />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
-
 export default App;
